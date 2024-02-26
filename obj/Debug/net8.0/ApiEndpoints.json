@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "WebApplication1APIREST.Controllers.PersonneController",
+    "Method": "Get",
+    "RelativePath": "Personne/{num\u00E9ro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num\u00E9ro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
